@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.pkl
+*.pt
+*.pth
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.env
+Trento/
+Houston/
+MUUFL/
