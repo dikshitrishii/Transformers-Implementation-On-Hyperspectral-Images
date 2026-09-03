@@ -29,17 +29,17 @@ Three encoder block designs were explored, each integrating the Global Filter Ne
 ### Series
 GF Layer and Cross-HL attention applied sequentially within each encoder block.
 
-<img src="figures/architecture_series.jpeg" width="300">
+![Series Architecture](./figures/architecture_series.jpeg)
 
 ### Parallel (Best)
 GF Layer and Cross-HL attention applied in parallel branches, outputs merged before the MLP.
 
-<img src="figures/architecture_parallel.jpeg" width="300">
+![Parallel Architecture](./figures/architecture_parallel.jpeg)
 
 ### KAN
 Same parallel structure as above, but replaces the MLP with a Kolmogorov-Arnold Network (KAN) using learnable B-spline activation functions.
 
-<img src="figures/architecture_kan.jpeg" width="300">
+![KAN Architecture](./figures/architecture_kan.jpeg)
 
 ## Repository Structure
 
